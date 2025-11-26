@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Button from '../components/button.js';
+import SimpleText from "../components/simpletext.js";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,7 +36,7 @@ export default function Home() {
             height={200}
             priority
           />
-          <Button text="Click Me" />
+          <SimpleText text="yo dawg" />
         
         </main>
       </div>
